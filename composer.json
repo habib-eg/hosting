@@ -1,0 +1,27 @@
+{
+    "name": "habib-eg/hosting",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Habib",
+            "email": "mohamedmosaadhabib@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Habib\\Hosting\\": "./src//"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Habib\\Hosting\\Providers\\HostingServiceProvider"
+            ]
+        }
+    }
+}
